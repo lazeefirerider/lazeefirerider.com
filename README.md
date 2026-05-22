@@ -1,4 +1,4 @@
-# Lazee Fire Rider Website
+# lazeefirerider Website
 
 Starter website for `lazeefirerider.com`.
 

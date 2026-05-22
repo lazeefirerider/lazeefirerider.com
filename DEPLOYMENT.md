@@ -23,7 +23,7 @@ From this folder in PowerShell or Git Bash:
 
 ```powershell
 git add .
-git commit -m "Initial Lazee Fire Rider website"
+git commit -m "Initial lazeefirerider website"
 git branch -M main
 git remote add origin https://github.com/YOUR-GITHUB-NAME/lazeefirerider.com.git
 git push -u origin main
