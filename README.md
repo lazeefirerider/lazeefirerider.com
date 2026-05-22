@@ -34,6 +34,10 @@ Available local tooling checked on 22 May 2026:
 - `screenshots.html`
 - `contact.html`
 
+## Live Community
+
+- Discord: https://discord.gg/QET9Vvmx8j
+
 ## Local Preview
 
 Open `index.html` directly in a browser, or use a small local server later if needed.

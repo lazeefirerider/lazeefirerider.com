@@ -354,6 +354,11 @@ h3 {
   font-weight: 800;
 }
 
+.text-link {
+  color: var(--teal);
+  font-weight: 800;
+}
+
 .dark-band {
   background: var(--charcoal);
   color: var(--white);
