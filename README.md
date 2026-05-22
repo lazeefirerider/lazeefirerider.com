@@ -37,6 +37,8 @@ Available local tooling checked on 22 May 2026:
 ## Live Community
 
 - Discord: https://discord.gg/QET9Vvmx8j
+- YouTube: https://www.youtube.com/channel/UC9QKpTQ7woKhXMZlbx8soqw
+- GitHub: https://github.com/lazeefirerider
 
 ## Local Preview
 
