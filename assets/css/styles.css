@@ -528,6 +528,111 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.project-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: clamp(24px, 5vw, 56px);
+  align-items: center;
+}
+
+.project-layout p,
+.doc-content p,
+.doc-content li {
+  color: var(--muted);
+  line-height: 1.75;
+  font-size: 1.04rem;
+}
+
+.project-media {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-strong);
+  box-shadow: var(--shadow);
+}
+
+.project-media img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.project-media figcaption {
+  padding: 14px 16px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.inline-actions {
+  margin-top: 24px;
+}
+
+.doc-layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 56px);
+  align-items: start;
+}
+
+.doc-nav {
+  position: sticky;
+  top: 96px;
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-strong);
+  box-shadow: var(--shadow);
+}
+
+.doc-nav a {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.doc-content {
+  display: grid;
+  gap: 28px;
+}
+
+.doc-content section {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-strong);
+  box-shadow: var(--shadow);
+}
+
+.doc-content pre {
+  overflow-x: auto;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--charcoal);
+  color: var(--teal);
+}
+
+.rule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.rule-grid article {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(57, 255, 106, 0.04);
+}
+
+.number-list {
+  padding-left: 24px;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -584,8 +689,15 @@ h3 {
   .timeline,
   .content-grid,
   .contact-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .project-layout,
+  .doc-layout,
+  .rule-grid {
     grid-template-columns: 1fr;
+  }
+
+  .doc-nav {
+    position: static;
   }
 
   .hero {
