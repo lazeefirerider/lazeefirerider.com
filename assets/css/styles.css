@@ -349,6 +349,11 @@ h3 {
   font-weight: 800;
 }
 
+.download-table a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
 .dark-band {
   background: var(--charcoal);
   color: var(--white);
